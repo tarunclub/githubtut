@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (req, res) => {
   res.json({
     success: true,
-    message: 'Kaise ho dosto?',
+    message: 'Kaise ho? Kya kar rahe h',
   });
 });
 
